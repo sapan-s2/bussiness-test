@@ -1,0 +1,45 @@
+{
+  "name": "businness-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "mui": {
+    "entries": [
+      "index"
+    ],
+    "externals": {
+      "external/react": {
+        "root": "React",
+        "amd": "react",
+        "commonjs": "react",
+        "commonjs2": "react"
+      },
+      "external/util": {
+        "root": [
+          "mui",
+          "util"
+        ],
+        "amd": "util/index",
+        "commonjs": "util/index",
+        "commonjs2": "util/index"
+      },
+      "external/viewtest": {
+        "root": [
+          "mui",
+          "viewtest"
+        ],
+        "amd": "viewtest/index",
+        "commonjs": "viewtest/index",
+        "commonjs2": "viewtest/index"
+      }
+    }
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
