@@ -1,1 +1,9 @@
-# Created by .ignore support plugin (hsz.mobi)
+
+node_modueles
+.idea
+target
+npm-debug.log
+.*.swp
+*.map
+tmp
+
